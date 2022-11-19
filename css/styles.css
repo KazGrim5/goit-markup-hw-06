@@ -654,8 +654,12 @@ label > p > a:hover {
 .modal-checkbox:checked + .modal-checkbox-label::before {
   background-color: var(--hover-color);
   border: none;
-  background-image: image("../images/icons.svg/symbol-d.svg#icon-Vector-9");
+}
+.checkbox-icon {
+  position: absolute;
   fill: var(--btn-color);
+  bottom: 117px;
+  left: 59px;
 }
 .newsletter-title {
   font-weight: 700;
@@ -679,6 +683,7 @@ label > p > a:hover {
   border-radius: 4px;
   background-color: var(--footer-color);
   margin-right: 12px;
+  color: var(--text-color);
 }
 .newsletter-input:focus-visible{
   outline: none;
