@@ -654,7 +654,7 @@ label > p > a:hover {
 .modal-checkbox:checked + .modal-checkbox-label::before {
   background-color: var(--hover-color);
   border: none;
-  background-image: url("../images/icons.svg/symbol-d.svg#icon-Vector-9");
+  background-image: image("../images/icons.svg/symbol-d.svg#icon-Vector-9");
   fill: var(--btn-color);
 }
 .newsletter-title {
